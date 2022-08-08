@@ -16,7 +16,7 @@ We report an exclusion distance for each search candidate for a fiducial gravita
 
 ## Paper Link
 
-[Arxiv Preprint](https://arxiv.org/abs/2208.xxxxx)
+[Arxiv Preprint](https://arxiv.org/abs/2208.03279)
 
 ## License and Citation
 
@@ -27,10 +27,10 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unite
 We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
 
 ```
-@article{Wang:2022xxx,
-    author = "Wang, Yi-Fan et al.",
+@article{Wang:2022pbt,
+    author = "Wang, Yi-Fan and Nitz, Alexander H. and Capano, Collin D. and Wang, Xiangyu Ivy and Yang, Yu-Han and Zhang, Bin-Bin",
     title = "{Search for Coincident Gravitational Wave and Long Gamma-Ray Bursts from 4-OGC and the Fermi/Swift Catalog}",
-    eprint = "2203.xxxxx",
+    eprint = "2208.03279",
     archivePrefix = "arXiv",
     primaryClass = "astro-ph.HE",
     month = "8",
