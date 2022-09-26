@@ -12,3 +12,5 @@ Note: click the link will start to download files!
 * [O3b](https://www.atlas.aei.uni-hannover.de/work/yifan.wang/grb/gwrun/gwskymap/gwskymap_o3b.hdf)  (6.2G)
 
 ## How to use
+
+* [Notebook](https://github.com/gwastro/gw-longgrb/blob/master/gwdata/how-to-use.ipynb)
