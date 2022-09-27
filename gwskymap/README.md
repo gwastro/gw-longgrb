@@ -12,4 +12,4 @@ Note: click the link will start to download files!
 
 ## How to use
 
-* [Notebook](https://github.com/gwastro/gw-longgrb/blob/master/gwdata/how-to-use.ipynb)
+* [Notebook](https://github.com/gwastro/gw-longgrb/blob/master/gwskymap/how-to-use.ipynb)
