@@ -2,7 +2,6 @@
 
 Due to the volume limit of Github, we store the skymaps in the FTP server maintained by AEI Hannover.
 The following files contain candidates from the first three observational runs of LIGO/Virgo, respectively.
-Refer to [here](https://www.gw-openscience.org/data/) for more information. 
 
 Note: click the link will start to download files!
 
@@ -13,4 +12,4 @@ Note: click the link will start to download files!
 
 ## How to use
 
-* [Notebook](https://github.com/gwastro/gw-longgrb/blob/master/gwdata/how-to-use.ipynb)
+* [Notebook](https://github.com/gwastro/gw-longgrb/blob/master/gwskymap/how-to-use.ipynb)
