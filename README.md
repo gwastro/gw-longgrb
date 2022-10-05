@@ -18,6 +18,10 @@ We report an exclusion distance for each search candidate for a fiducial gravita
 
 [Arxiv Preprint](https://arxiv.org/abs/2208.03279)
 
+## Skymap of the No. 1 candidate
+
+<img src="./GWlong-GRB.png" width="400">
+
 ## License and Citation
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/3.0/us/88x31.png "Creative Commons License")
