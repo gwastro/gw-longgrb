@@ -3,6 +3,8 @@
 Due to the volume limit of Github, we store the skymaps in the FTP server maintained by AEI Hannover.
 The following files contain candidates from the first three observational runs of LIGO/Virgo, respectively.
 
+This is probably the deepest gravitational-wave skymap catalog, containing ~500,000 subthreshold candidates with mass consistent with binary neutron star merger or neutron-star/black-hole merger.
+
 Note: click the link will start to download files!
 
 * [O1](https://www.atlas.aei.uni-hannover.de/work/yifan.wang/grb/gwrun/gwskymap/gwskymap_o1.hdf) (3.2G)
