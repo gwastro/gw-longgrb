@@ -18,9 +18,15 @@ We report an exclusion distance for each search candidate for a fiducial gravita
 
 [Arxiv Preprint](https://arxiv.org/abs/2208.03279)
 
+[Published version in Astrophysical Letter (open access)](https://iopscience.iop.org/article/10.3847/2041-8213/ac990c)
+
 ## Skymap of the No. 1 candidate
 
 <img src="./GWlong-GRB.png" width="400">
+
+## Data Release: Skymaps for Subthreshold Candidates
+
+See [gwskymap](https://github.com/gwastro/gw-longgrb/tree/master/gwskymap) for data release, and [this notebook](https://github.com/gwastro/gw-longgrb/blob/master/gwskymap/how-to-use.ipynb) for how to use.
 
 ## License and Citation
 
@@ -33,11 +39,15 @@ We encourage use of these data in derivative works. If you use the material prov
 ```
 @article{Wang:2022pbt,
     author = "Wang, Yi-Fan and Nitz, Alexander H. and Capano, Collin D. and Wang, Xiangyu Ivy and Yang, Yu-Han and Zhang, Bin-Bin",
-    title = "{Search for Coincident Gravitational Wave and Long Gamma-Ray Bursts from 4-OGC and the Fermi/Swift Catalog}",
+    title = "{Search for Coincident Gravitational Waves and Long Gamma-Ray Bursts from 4-OGC and the Fermi-GBM/Swift-BAT Catalog}",
     eprint = "2208.03279",
     archivePrefix = "arXiv",
     primaryClass = "astro-ph.HE",
-    month = "8",
+    doi = "10.3847/2041-8213/ac990c",
+    journal = "Astrophys. J. Lett.",
+    volume = "939",
+    number = "1",
+    pages = "L14",
     year = "2022"
 }
 ```
