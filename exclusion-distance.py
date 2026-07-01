@@ -130,7 +130,7 @@ class postprocess():
          'mass2':1.4,
          'spin1z':0,
          'spin2z':0,
-         'inlication':np.pi/6,
+         'inclination':np.pi/6,
          'distance':100,
          'tc':self.trigger_time,
          'coa_phase':0}
