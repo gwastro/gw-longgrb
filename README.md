@@ -30,7 +30,7 @@ See [gwskymap](https://github.com/gwastro/gw-longgrb/tree/master/gwskymap) for d
 
 ## Erratum: Note on Exclusion Distance Calculation
 
-An earlier version of `exclusion-distance.py` contained a typo in the waveform parameters: `inlication` was used instead of `inclination` (as in this [line](https://github.com/gwastro/gw-longgrb/blob/8d563fb963925555c985a3ca5b449a94ac899ce4/exclusion-distance.py#L133)). As a result, the intended fiducial inclination angle of 30 deg was not passed to the waveform generator, and the exclusion distances were effectively computed with a face-on inclination, iota = 0.
+An earlier version of `exclusion-distance.py` contained a typo in the waveform parameters: `inlication` was used instead of `inclination` (as in this [line](https://github.com/gwastro/gw-longgrb/blob/8d563fb963925555c985a3ca5b449a94ac899ce4/exclusion-distance.py#L133)). As a result, the intended fiducial inclination angle of 30 deg was not passed to the waveform generator, and the exclusion distances were effectively computed with a face-on inclination, iota = 0 (the default value is 0, as shown [here](https://github.com/gwastro/pycbc/blob/master/pycbc/waveform/parameters.py#L410)).
 
 For leading order, inclination dependence of the two gravitational-wave polarizations is
 
