@@ -28,6 +28,35 @@ We report an exclusion distance for each search candidate for a fiducial gravita
 
 See [gwskymap](https://github.com/gwastro/gw-longgrb/tree/master/gwskymap) for data release, and [this notebook](https://github.com/gwastro/gw-longgrb/blob/master/gwskymap/how-to-use.ipynb) for how to use.
 
+## Erratum: Note on Exclusion Distance Calculation
+
+An earlier version of `exclusion-distance.py` contained a typo in the waveform parameters: `inlication` was used instead of `inclination`. As a result, the intended fiducial inclination angle of 30 deg was not passed to the waveform generator, and the exclusion distances were effectively computed with a face-on inclination, iota = 0.
+
+For leading order, inclination dependence of the two gravitational-wave polarizations is
+
+```text
+h proportional to [(1 + cos^2 iota) / 2] h_+ + [cos iota] h_x .
+```
+
+Thus, relative to the face-on case, the plus and cross amplitude factors at iota = 30 deg are
+
+```text
+A_+(30 deg) = (1 + cos^2 30 deg) / 2 = 0.875,
+A_x(30 deg) = cos 30 deg = 0.866,
+```
+
+while `A_+(0) = A_x(0) = 1`. For a hand-waving estimation
+
+```text
+rho(30 deg) / rho(0)
+  ~= sqrt[(0.875^2 + 0.866^2) / (1^2 + 1^2)]
+  ~= 0.871.
+```
+
+The exclusion distance scales linearly with the optimal SNR, so the corrected 30 deg exclusion distance is approximately `0.87` times the face-on value, or equivalently the face-on exclusion distances were overestimated by approximately 15% relative to the corrected 30 deg calculation.
+
+We thank Samuele Ronchini, Ansh Chopra and Tito Dal Canton for pointing this out.
+
 ## License and Citation
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/3.0/us/88x31.png "Creative Commons License")
